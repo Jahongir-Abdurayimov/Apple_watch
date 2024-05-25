@@ -1,0 +1,236 @@
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-display: swap; 
+    src: url("./fonts/robotoregular.woff2") format("woff2"), 
+         url("./fonts/robotoregular.woff") format("woff"); 
+  }
+ 
+  @font-face {
+      font-family: "Roboto";
+      font-weight: 700;
+      font-display: swap; 
+    src: url("./fonts/robotobold.woff2") format("woff2"),
+         url("./fonts/robotobold.woff") format("woff");
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1040px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.list-unstyle {
+    padding-left: 0;
+    margin-block: 0;
+    list-style: none;
+}
+
+.site-header {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+
+}
+
+.site-logo {
+    margin-right: auto;
+}
+
+.site-nav {
+    margin-right: 40px;
+}
+
+.site-nav-list {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 6px;
+}
+
+.site-nav-link {
+    color: #333;
+    font-size: 15px;
+    line-height: 150%; 
+    text-decoration-line: none;
+}
+
+.header-form {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #333;
+}
+
+.header-input {
+    color: #666;
+    font-size: 15px;
+    line-height: 150%; 
+    border: none;
+}
+
+.hero {
+    padding-top: 90px;
+    padding-bottom: 183px;
+    background-image: url("./images/intro-bg.png");
+    background-position: calc(50% + 530px) calc(50% + 20px);
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #ddd;
+}
+
+.hero-inner {
+    width: 490px;
+}
+
+.hero-title {
+    margin: 0 0 30px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.title-desc {
+    margin: 0 0 30px;
+    padding-left: 37px;
+    border-left: 3px solid #888;
+    color: #777;
+    line-height: 150%; 
+}
+
+.hero-link {
+    display: inline-block;
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%; 
+    text-decoration-line: none;
+    text-transform: uppercase;
+    background: #ea625c;
+}
+
+.about {
+    padding-block: 70px;
+
+}
+
+.about-list {
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-item {
+    width: 280px;
+}
+
+.about-item-title {
+    margin: 0 0 30px;
+    color: #222;
+    font-size: 18px;
+    line-height: 150%; 
+    text-transform: uppercase;
+}
+
+.about-item-desc {
+    margin: 0 0 20px;
+    color: #333;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+    box-shadow:18px 0  0 0 #ddd,36px 0 0 0 #ddd;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration-line: none;
+    color: #ea625c;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.learn-more::before {
+    display: inline-block;
+    content: " ";
+    width: 40px;
+    height: 3px;
+    background-color:#ea625c;
+
+}
+
+.wrapper-about-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.wrapper-title {
+    width: 490px;
+}
+.about-title {
+    margin: 0 0 30px;
+    font-size: 50px;
+    line-height: 120%; 
+}
+
+
+.link {
+    display: inline-block;
+    padding: 12px 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%; 
+    text-decoration-line: none;
+    text-transform: uppercase;
+    background: #ea625c;
+}
+
+.health {
+    padding-block: 240px;
+    background-image: url("./images/runners.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper-health-title {
+    margin-left: auto;
+    width: 490px;
+}
+
+.health-title {
+    margin: 0 0 30px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 120%; 
+
+}
+
+.health-desc {
+    color: #fff;
+    border-color: #fff;
+}
